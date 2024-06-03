@@ -1,24 +1,18 @@
 # Recommendation System: Content-Based Filtering
 
-This repository contains the code and resources needed to run the recommendation system, which is demonstrated on my [YouTube video](https://youtu.be/KZq6J11Lq7Y).
+This repository contains the code and resources needed to run the recommendation system, demonstrated on my [YouTube video](https://youtu.be/KZq6J11Lq7Y).
 
 ## Project Overview
 
 This project is a content-based recommendation system built using Python. It consists of the following components:
-- **Frontend**: Developed using Streamlit (located in `src/app.py`)
-- **Utilities**: Helpful functions for the project (located in `src/utils.py`)
 - **Data Insertion**: Script to insert embeddings into the Qdrant vector store database (located in `src/insert_collection_qdrant.py`)
+- **Utilities**: Functions used to build the recommender system (located in `src/utils.py`)
+- **Frontend**: Developed using Streamlit (located in `src/app.py`)
 - **Dataset**: The dataset used for the system (located in the `data` folder)
 - **Requirements**: List of required libraries (located in `requirements.txt`)
 - **Environment Variables**: Example file for necessary credentials (located in `.env.example`)
 
 ## Getting Started
-
-### Prerequisites
-
-- Python 3.8+
-- [Streamlit](https://streamlit.io/)
-- [Qdrant](https://qdrant.tech/)
 
 ### Installation
 
