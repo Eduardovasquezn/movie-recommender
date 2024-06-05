@@ -18,7 +18,7 @@ This project is a content-based recommendation system built using Python. It con
 
 1. Clone the repository:
     ```bash
-    git clone [https://github.com/yourusername/your-repo-name.git](https://github.com/Eduardovasquezn/movie-recommender.git)
+    git clone https://github.com/Eduardovasquezn/movie-recommender.git
     cd movie-recommender
     ```
 
