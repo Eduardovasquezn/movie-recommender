@@ -1,6 +1,6 @@
 # Recommendation System: Content-Based Filtering
 
-This repository contains the code and resources needed to run the recommendation system, demonstrated on my [YouTube video](https://youtu.be/KZq6J11Lq7Y).
+Welcome to the AI Recommendation System project! This repository contains the code and resources needed to run the recommendation system, demonstrated on my [YouTube video](https://youtu.be/KZq6J11Lq7Y).
 
 ## Project Overview
 
@@ -22,23 +22,34 @@ This project is a content-based recommendation system built using Python. It con
     cd movie-recommender
     ```
 
-2. Install the required libraries:
+2. Navigate to the project directory:
+    ```bash
+    cd movie-recommender
+    ```
+    
+3. Create and activate virtual environment:
+    ```bash
+    python -m venv venv
+    venv/Scripts/activate
+    ```
+    
+4. Install the required libraries:
     ```bash
     pip install -r requirements.txt
     ```
 
-3. Set up the environment variables:
-    - Copy the `.env.example` file to `.env`
-    - Fill in your credentials in the `.env` file
-
 ### Running the Application
 
-1. Insert embeddings into the Qdrant database:
+1. Set up the environment variables. Create a `.env` file using `.env-example` as a template:
+    ```bash
+    cp .env-example .env
+     ```
+2. Insert embeddings into the Qdrant database:
     ```bash
     python src/insert_collection_qdrant.py
     ```
 
-2. Start the Streamlit app:
+3. Start the Streamlit app:
     ```bash
     streamlit run src/app.py
     ```
